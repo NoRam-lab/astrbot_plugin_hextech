@@ -1,4 +1,10 @@
-
 # Sample file
 sample.py
 _conf_schema_sample.json
+
+# Debug files
+debug_scrape.py
+
+# Python cache
+__pycache__/
+*.pyc
