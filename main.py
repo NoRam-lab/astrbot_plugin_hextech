@@ -154,6 +154,18 @@ class MyPlugin(Star):
             if en_name:
                 msg += f"   EN: {en_name}\n"
             msg += f"   📝 {desc_clean}"
+            
+            # 检查是否有特殊机制
+            # 注意：mechanism 可能是直接在 h 里的字典，因为我们在 JS 中合并了它
+            # h['mechanism'] = {zh: "...", en: "..."}
+            mechanism = h.get("mechanism")
+            if mechanism:
+                mech_zh = mechanism.get("zh", "")
+                if mech_zh:
+                    # 清理机制文本中的HTML
+                    mech_clean = BeautifulSoup(mech_zh, "html.parser").get_text()
+                    msg += f"\n\n   ⚠️ **特殊机制**:\n   {mech_clean}"
+            
             result_msg.append(msg)
             
         yield event.plain_result("\n\n".join(result_msg))

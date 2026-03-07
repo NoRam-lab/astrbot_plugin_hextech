@@ -73,7 +73,24 @@ def fetch_hextech_data_from_url(url="https://apexlol.info/assets/chunks/data.Bq-
     # We also need to handle the end. The file ends with `;`.
     # So `script_part` should be valid JS statements.
     
-    js_script = f"var {script_part}\nconsole.log(JSON.stringify(Wi));"
+    js_script = f"""
+    var {script_part}
+    
+    // Merge mechanism from Oi into Wi
+    if (typeof Wi !== 'undefined' && typeof Oi !== 'undefined') {{
+        Wi.forEach(hex => {{
+            if (Oi[hex.id] && Oi[hex.id].mechanism) {{
+                hex.mechanism = Oi[hex.id].mechanism;
+            }}
+        }});
+    }}
+    
+    if (typeof Wi !== 'undefined') {{
+        console.log(JSON.stringify(Wi));
+    }} else {{
+        console.log("[]");
+    }}
+    """
     
     temp_js_file = f"temp_hex_{int(time.time())}.js"
     try:
