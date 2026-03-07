@@ -1,0 +1,2885 @@
+[
+  {
+    "id": "Aatrox",
+    "key": "266",
+    "name": {
+      "zh": "暗裔剑魔",
+      "en": "Aatrox"
+    },
+    "title": {
+      "zh": "亚托克斯",
+      "en": "the Darkin Blade"
+    },
+    "roles": [
+      "Fighter"
+    ],
+    "imageName": "Aatrox.webp"
+  },
+  {
+    "id": "Ahri",
+    "key": "103",
+    "name": {
+      "zh": "九尾妖狐",
+      "en": "Ahri"
+    },
+    "title": {
+      "zh": "阿狸",
+      "en": "the Nine-Tailed Fox"
+    },
+    "roles": [
+      "Mage",
+      "Assassin"
+    ],
+    "imageName": "Ahri.webp"
+  },
+  {
+    "id": "Akali",
+    "key": "84",
+    "name": {
+      "zh": "离群之刺",
+      "en": "Akali"
+    },
+    "title": {
+      "zh": "阿卡丽",
+      "en": "the Rogue Assassin"
+    },
+    "roles": [
+      "Assassin"
+    ],
+    "imageName": "Akali.webp"
+  },
+  {
+    "id": "Akshan",
+    "key": "166",
+    "name": {
+      "zh": "影哨",
+      "en": "Akshan"
+    },
+    "title": {
+      "zh": "阿克尚",
+      "en": "the Rogue Sentinel"
+    },
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "imageName": "Akshan.webp"
+  },
+  {
+    "id": "Alistar",
+    "key": "12",
+    "name": {
+      "zh": "牛头酋长",
+      "en": "Alistar"
+    },
+    "title": {
+      "zh": "阿利斯塔",
+      "en": "the Minotaur"
+    },
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "imageName": "Alistar.webp"
+  },
+  {
+    "id": "Ambessa",
+    "key": "799",
+    "name": {
+      "zh": "铁血狼母",
+      "en": "Ambessa"
+    },
+    "title": {
+      "zh": "安蓓萨",
+      "en": "Matriarch of War"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Ambessa.webp"
+  },
+  {
+    "id": "Amumu",
+    "key": "32",
+    "name": {
+      "zh": "殇之木乃伊",
+      "en": "Amumu"
+    },
+    "title": {
+      "zh": "阿木木",
+      "en": "the Sad Mummy"
+    },
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "imageName": "Amumu.webp"
+  },
+  {
+    "id": "Anivia",
+    "key": "34",
+    "name": {
+      "zh": "冰晶凤凰",
+      "en": "Anivia"
+    },
+    "title": {
+      "zh": "艾尼维亚",
+      "en": "the Cryophoenix"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Anivia.webp"
+  },
+  {
+    "id": "Annie",
+    "key": "1",
+    "name": {
+      "zh": "黑暗之女",
+      "en": "Annie"
+    },
+    "title": {
+      "zh": "安妮",
+      "en": "the Dark Child"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Annie.webp"
+  },
+  {
+    "id": "Aphelios",
+    "key": "523",
+    "name": {
+      "zh": "残月之肃",
+      "en": "Aphelios"
+    },
+    "title": {
+      "zh": "厄斐琉斯",
+      "en": "the Weapon of the Faithful"
+    },
+    "roles": [
+      "Marksman"
+    ],
+    "imageName": "Aphelios.webp"
+  },
+  {
+    "id": "Ashe",
+    "key": "22",
+    "name": {
+      "zh": "寒冰射手",
+      "en": "Ashe"
+    },
+    "title": {
+      "zh": "艾希",
+      "en": "the Frost Archer"
+    },
+    "roles": [
+      "Marksman",
+      "Support"
+    ],
+    "imageName": "Ashe.webp"
+  },
+  {
+    "id": "AurelionSol",
+    "key": "136",
+    "name": {
+      "zh": "铸星龙王",
+      "en": "Aurelion Sol"
+    },
+    "title": {
+      "zh": "奥瑞利安·索尔",
+      "en": "The Star Forger"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "AurelionSol.webp"
+  },
+  {
+    "id": "Aurora",
+    "key": "893",
+    "name": {
+      "zh": "双界灵兔",
+      "en": "Aurora"
+    },
+    "title": {
+      "zh": "阿萝拉",
+      "en": "the Witch Between Worlds"
+    },
+    "roles": [
+      "Mage",
+      "Assassin"
+    ],
+    "imageName": "Aurora.webp"
+  },
+  {
+    "id": "Azir",
+    "key": "268",
+    "name": {
+      "zh": "沙漠皇帝",
+      "en": "Azir"
+    },
+    "title": {
+      "zh": "阿兹尔",
+      "en": "the Emperor of the Sands"
+    },
+    "roles": [
+      "Mage",
+      "Marksman"
+    ],
+    "imageName": "Azir.webp"
+  },
+  {
+    "id": "Bard",
+    "key": "432",
+    "name": {
+      "zh": "星界游神",
+      "en": "Bard"
+    },
+    "title": {
+      "zh": "巴德",
+      "en": "the Wandering Caretaker"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Bard.webp"
+  },
+  {
+    "id": "Belveth",
+    "key": "200",
+    "name": {
+      "zh": "虚空女皇",
+      "en": "Bel'Veth"
+    },
+    "title": {
+      "zh": "卑尔维斯",
+      "en": "the Empress of the Void"
+    },
+    "roles": [
+      "Fighter"
+    ],
+    "imageName": "Belveth.webp"
+  },
+  {
+    "id": "Blitzcrank",
+    "key": "53",
+    "name": {
+      "zh": "蒸汽机器人",
+      "en": "Blitzcrank"
+    },
+    "title": {
+      "zh": "布里茨",
+      "en": "the Great Steam Golem"
+    },
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "imageName": "Blitzcrank.webp"
+  },
+  {
+    "id": "Brand",
+    "key": "63",
+    "name": {
+      "zh": "复仇焰魂",
+      "en": "Brand"
+    },
+    "title": {
+      "zh": "布兰德",
+      "en": "the Burning Vengeance"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Brand.webp"
+  },
+  {
+    "id": "Braum",
+    "key": "201",
+    "name": {
+      "zh": "弗雷尔卓德之心",
+      "en": "Braum"
+    },
+    "title": {
+      "zh": "布隆",
+      "en": "the Heart of the Freljord"
+    },
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "imageName": "Braum.webp"
+  },
+  {
+    "id": "Briar",
+    "key": "233",
+    "name": {
+      "zh": "狂厄蔷薇",
+      "en": "Briar"
+    },
+    "title": {
+      "zh": "贝蕾亚",
+      "en": "the Restrained Hunger"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Briar.webp"
+  },
+  {
+    "id": "Caitlyn",
+    "key": "51",
+    "name": {
+      "zh": "皮城女警",
+      "en": "Caitlyn"
+    },
+    "title": {
+      "zh": "凯特琳",
+      "en": "the Sheriff of Piltover"
+    },
+    "roles": [
+      "Marksman"
+    ],
+    "imageName": "Caitlyn.webp"
+  },
+  {
+    "id": "Camille",
+    "key": "164",
+    "name": {
+      "zh": "青钢影",
+      "en": "Camille"
+    },
+    "title": {
+      "zh": "卡蜜尔",
+      "en": "the Steel Shadow"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Camille.webp"
+  },
+  {
+    "id": "Cassiopeia",
+    "key": "69",
+    "name": {
+      "zh": "魔蛇之拥",
+      "en": "Cassiopeia"
+    },
+    "title": {
+      "zh": "卡西奥佩娅",
+      "en": "the Serpent's Embrace"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Cassiopeia.webp"
+  },
+  {
+    "id": "Chogath",
+    "key": "31",
+    "name": {
+      "zh": "虚空恐惧",
+      "en": "Cho'Gath"
+    },
+    "title": {
+      "zh": "科加斯",
+      "en": "the Terror of the Void"
+    },
+    "roles": [
+      "Tank",
+      "Mage"
+    ],
+    "imageName": "Chogath.webp"
+  },
+  {
+    "id": "Corki",
+    "key": "42",
+    "name": {
+      "zh": "英勇投弹手",
+      "en": "Corki"
+    },
+    "title": {
+      "zh": "库奇",
+      "en": "the Daring Bombardier"
+    },
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "imageName": "Corki.webp"
+  },
+  {
+    "id": "Darius",
+    "key": "122",
+    "name": {
+      "zh": "诺克萨斯之手",
+      "en": "Darius"
+    },
+    "title": {
+      "zh": "德莱厄斯",
+      "en": "the Hand of Noxus"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Darius.webp"
+  },
+  {
+    "id": "Diana",
+    "key": "131",
+    "name": {
+      "zh": "皎月女神",
+      "en": "Diana"
+    },
+    "title": {
+      "zh": "黛安娜",
+      "en": "Scorn of the Moon"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Diana.webp"
+  },
+  {
+    "id": "Draven",
+    "key": "119",
+    "name": {
+      "zh": "荣耀行刑官",
+      "en": "Draven"
+    },
+    "title": {
+      "zh": "德莱文",
+      "en": "the Glorious Executioner"
+    },
+    "roles": [
+      "Marksman"
+    ],
+    "imageName": "Draven.webp"
+  },
+  {
+    "id": "DrMundo",
+    "key": "36",
+    "name": {
+      "zh": "祖安狂人",
+      "en": "Dr. Mundo"
+    },
+    "title": {
+      "zh": "蒙多医生",
+      "en": "the Madman of Zaun"
+    },
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "imageName": "DrMundo.webp"
+  },
+  {
+    "id": "Ekko",
+    "key": "245",
+    "name": {
+      "zh": "时间刺客",
+      "en": "Ekko"
+    },
+    "title": {
+      "zh": "艾克",
+      "en": "the Boy Who Shattered Time"
+    },
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "imageName": "Ekko.webp"
+  },
+  {
+    "id": "Elise",
+    "key": "60",
+    "name": {
+      "zh": "蜘蛛女皇",
+      "en": "Elise"
+    },
+    "title": {
+      "zh": "伊莉丝",
+      "en": "the Spider Queen"
+    },
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "imageName": "Elise.webp"
+  },
+  {
+    "id": "Evelynn",
+    "key": "28",
+    "name": {
+      "zh": "痛苦之拥",
+      "en": "Evelynn"
+    },
+    "title": {
+      "zh": "伊芙琳",
+      "en": "Agony's Embrace"
+    },
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "imageName": "Evelynn.webp"
+  },
+  {
+    "id": "Ezreal",
+    "key": "81",
+    "name": {
+      "zh": "探险家",
+      "en": "Ezreal"
+    },
+    "title": {
+      "zh": "伊泽瑞尔",
+      "en": "the Prodigal Explorer"
+    },
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "imageName": "Ezreal.webp"
+  },
+  {
+    "id": "Fiddlesticks",
+    "key": "9",
+    "name": {
+      "zh": "远古恐惧",
+      "en": "Fiddlesticks"
+    },
+    "title": {
+      "zh": "费德提克",
+      "en": "the Ancient Fear"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Fiddlesticks.webp"
+  },
+  {
+    "id": "Fiora",
+    "key": "114",
+    "name": {
+      "zh": "无双剑姬",
+      "en": "Fiora"
+    },
+    "title": {
+      "zh": "菲奥娜",
+      "en": "the Grand Duelist"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Fiora.webp"
+  },
+  {
+    "id": "Fizz",
+    "key": "105",
+    "name": {
+      "zh": "潮汐海灵",
+      "en": "Fizz"
+    },
+    "title": {
+      "zh": "菲兹",
+      "en": "the Tidal Trickster"
+    },
+    "roles": [
+      "Assassin",
+      "Fighter"
+    ],
+    "imageName": "Fizz.webp"
+  },
+  {
+    "id": "Galio",
+    "key": "3",
+    "name": {
+      "zh": "正义巨像",
+      "en": "Galio"
+    },
+    "title": {
+      "zh": "加里奥",
+      "en": "the Colossus"
+    },
+    "roles": [
+      "Tank",
+      "Mage"
+    ],
+    "imageName": "Galio.webp"
+  },
+  {
+    "id": "Gangplank",
+    "key": "41",
+    "name": {
+      "zh": "海洋之灾",
+      "en": "Gangplank"
+    },
+    "title": {
+      "zh": "普朗克",
+      "en": "the Saltwater Scourge"
+    },
+    "roles": [
+      "Fighter"
+    ],
+    "imageName": "Gangplank.webp"
+  },
+  {
+    "id": "Garen",
+    "key": "86",
+    "name": {
+      "zh": "德玛西亚之力",
+      "en": "Garen"
+    },
+    "title": {
+      "zh": "盖伦",
+      "en": "The Might of Demacia"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Garen.webp"
+  },
+  {
+    "id": "Gnar",
+    "key": "150",
+    "name": {
+      "zh": "迷失之牙",
+      "en": "Gnar"
+    },
+    "title": {
+      "zh": "纳尔",
+      "en": "the Missing Link"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Gnar.webp"
+  },
+  {
+    "id": "Gragas",
+    "key": "79",
+    "name": {
+      "zh": "酒桶",
+      "en": "Gragas"
+    },
+    "title": {
+      "zh": "古拉加斯",
+      "en": "the Rabble Rouser"
+    },
+    "roles": [
+      "Fighter",
+      "Mage"
+    ],
+    "imageName": "Gragas.webp"
+  },
+  {
+    "id": "Graves",
+    "key": "104",
+    "name": {
+      "zh": "法外狂徒",
+      "en": "Graves"
+    },
+    "title": {
+      "zh": "格雷福斯",
+      "en": "the Outlaw"
+    },
+    "roles": [
+      "Marksman"
+    ],
+    "imageName": "Graves.webp"
+  },
+  {
+    "id": "Gwen",
+    "key": "887",
+    "name": {
+      "zh": "灵罗娃娃",
+      "en": "Gwen"
+    },
+    "title": {
+      "zh": "格温",
+      "en": "The Hallowed Seamstress"
+    },
+    "roles": [
+      "Fighter"
+    ],
+    "imageName": "Gwen.webp"
+  },
+  {
+    "id": "Hecarim",
+    "key": "120",
+    "name": {
+      "zh": "战争之影",
+      "en": "Hecarim"
+    },
+    "title": {
+      "zh": "赫卡里姆",
+      "en": "the Shadow of War"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Hecarim.webp"
+  },
+  {
+    "id": "Heimerdinger",
+    "key": "74",
+    "name": {
+      "zh": "大发明家",
+      "en": "Heimerdinger"
+    },
+    "title": {
+      "zh": "黑默丁格",
+      "en": "the Revered Inventor"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Heimerdinger.webp"
+  },
+  {
+    "id": "Hwei",
+    "key": "910",
+    "name": {
+      "zh": "异画师",
+      "en": "Hwei"
+    },
+    "title": {
+      "zh": "彗",
+      "en": "the Visionary"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Hwei.webp"
+  },
+  {
+    "id": "Illaoi",
+    "key": "420",
+    "name": {
+      "zh": "海兽祭司",
+      "en": "Illaoi"
+    },
+    "title": {
+      "zh": "俄洛伊",
+      "en": "the Kraken Priestess"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Illaoi.webp"
+  },
+  {
+    "id": "Irelia",
+    "key": "39",
+    "name": {
+      "zh": "刀锋舞者",
+      "en": "Irelia"
+    },
+    "title": {
+      "zh": "艾瑞莉娅",
+      "en": "the Blade Dancer"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Irelia.webp"
+  },
+  {
+    "id": "Ivern",
+    "key": "427",
+    "name": {
+      "zh": "翠神",
+      "en": "Ivern"
+    },
+    "title": {
+      "zh": "艾翁",
+      "en": "the Green Father"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Ivern.webp"
+  },
+  {
+    "id": "Janna",
+    "key": "40",
+    "name": {
+      "zh": "风暴之怒",
+      "en": "Janna"
+    },
+    "title": {
+      "zh": "迦娜",
+      "en": "the Storm's Fury"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Janna.webp"
+  },
+  {
+    "id": "JarvanIV",
+    "key": "59",
+    "name": {
+      "zh": "德玛西亚皇子",
+      "en": "Jarvan IV"
+    },
+    "title": {
+      "zh": "嘉文四世",
+      "en": "the Exemplar of Demacia"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "JarvanIV.webp"
+  },
+  {
+    "id": "Jax",
+    "key": "24",
+    "name": {
+      "zh": "武器大师",
+      "en": "Jax"
+    },
+    "title": {
+      "zh": "贾克斯",
+      "en": "Grandmaster at Arms"
+    },
+    "roles": [
+      "Fighter"
+    ],
+    "imageName": "Jax.webp"
+  },
+  {
+    "id": "Jayce",
+    "key": "126",
+    "name": {
+      "zh": "未来守护者",
+      "en": "Jayce"
+    },
+    "title": {
+      "zh": "杰斯",
+      "en": "the Defender of Tomorrow"
+    },
+    "roles": [
+      "Fighter",
+      "Marksman"
+    ],
+    "imageName": "Jayce.webp",
+    "version": "16.1"
+  },
+  {
+    "id": "Jhin",
+    "key": "202",
+    "name": {
+      "zh": "戏命师",
+      "en": "Jhin"
+    },
+    "title": {
+      "zh": "烬",
+      "en": "the Virtuoso"
+    },
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "imageName": "Jhin.webp"
+  },
+  {
+    "id": "Jinx",
+    "key": "222",
+    "name": {
+      "zh": "暴走萝莉",
+      "en": "Jinx"
+    },
+    "title": {
+      "zh": "金克丝",
+      "en": "the Loose Cannon"
+    },
+    "roles": [
+      "Marksman"
+    ],
+    "imageName": "Jinx.webp"
+  },
+  {
+    "id": "Kaisa",
+    "key": "145",
+    "name": {
+      "zh": "虚空之女",
+      "en": "Kai'Sa"
+    },
+    "title": {
+      "zh": "卡莎",
+      "en": "Daughter of the Void"
+    },
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "imageName": "Kaisa.webp"
+  },
+  {
+    "id": "Kalista",
+    "key": "429",
+    "name": {
+      "zh": "复仇之矛",
+      "en": "Kalista"
+    },
+    "title": {
+      "zh": "卡莉丝塔",
+      "en": "the Spear of Vengeance"
+    },
+    "roles": [
+      "Marksman"
+    ],
+    "imageName": "Kalista.webp"
+  },
+  {
+    "id": "Karma",
+    "key": "43",
+    "name": {
+      "zh": "天启者",
+      "en": "Karma"
+    },
+    "title": {
+      "zh": "卡尔玛",
+      "en": "the Enlightened One"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Karma.webp"
+  },
+  {
+    "id": "Karthus",
+    "key": "30",
+    "name": {
+      "zh": "死亡颂唱者",
+      "en": "Karthus"
+    },
+    "title": {
+      "zh": "卡尔萨斯",
+      "en": "the Deathsinger"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Karthus.webp"
+  },
+  {
+    "id": "Kassadin",
+    "key": "38",
+    "name": {
+      "zh": "虚空行者",
+      "en": "Kassadin"
+    },
+    "title": {
+      "zh": "卡萨丁",
+      "en": "the Void Walker"
+    },
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "imageName": "Kassadin.webp"
+  },
+  {
+    "id": "Katarina",
+    "key": "55",
+    "name": {
+      "zh": "不祥之刃",
+      "en": "Katarina"
+    },
+    "title": {
+      "zh": "卡特琳娜",
+      "en": "the Sinister Blade"
+    },
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "imageName": "Katarina.webp"
+  },
+  {
+    "id": "Kayle",
+    "key": "10",
+    "name": {
+      "zh": "正义天使",
+      "en": "Kayle"
+    },
+    "title": {
+      "zh": "凯尔",
+      "en": "the Righteous"
+    },
+    "roles": [
+      "Mage",
+      "Marksman"
+    ],
+    "imageName": "Kayle.webp"
+  },
+  {
+    "id": "Kayn",
+    "key": "141",
+    "name": {
+      "zh": "影流之镰",
+      "en": "Kayn"
+    },
+    "title": {
+      "zh": "凯隐",
+      "en": "the Shadow Reaper"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Kayn.webp"
+  },
+  {
+    "id": "Kennen",
+    "key": "85",
+    "name": {
+      "zh": "狂暴之心",
+      "en": "Kennen"
+    },
+    "title": {
+      "zh": "凯南",
+      "en": "the Heart of the Tempest"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Kennen.webp"
+  },
+  {
+    "id": "Khazix",
+    "key": "121",
+    "name": {
+      "zh": "虚空掠夺者",
+      "en": "Kha'Zix"
+    },
+    "title": {
+      "zh": "卡兹克",
+      "en": "the Voidreaver"
+    },
+    "roles": [
+      "Assassin"
+    ],
+    "imageName": "Khazix.webp"
+  },
+  {
+    "id": "Kindred",
+    "key": "203",
+    "name": {
+      "zh": "永猎双子",
+      "en": "Kindred"
+    },
+    "title": {
+      "zh": "千珏",
+      "en": "The Eternal Hunters"
+    },
+    "roles": [
+      "Marksman"
+    ],
+    "imageName": "Kindred.webp"
+  },
+  {
+    "id": "Kled",
+    "key": "240",
+    "name": {
+      "zh": "暴怒骑士",
+      "en": "Kled"
+    },
+    "title": {
+      "zh": "克烈",
+      "en": "the Cantankerous Cavalier"
+    },
+    "roles": [
+      "Fighter"
+    ],
+    "imageName": "Kled.webp"
+  },
+  {
+    "id": "KogMaw",
+    "key": "96",
+    "name": {
+      "zh": "深渊巨口",
+      "en": "Kog'Maw"
+    },
+    "title": {
+      "zh": "克格莫",
+      "en": "the Mouth of the Abyss"
+    },
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "imageName": "KogMaw.webp"
+  },
+  {
+    "id": "KSante",
+    "key": "897",
+    "name": {
+      "zh": "纳祖芒荣耀",
+      "en": "K'Sante"
+    },
+    "title": {
+      "zh": "奎桑提",
+      "en": "the Pride of Nazumah"
+    },
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "imageName": "KSante.webp"
+  },
+  {
+    "id": "Leblanc",
+    "key": "7",
+    "name": {
+      "zh": "诡术妖姬",
+      "en": "LeBlanc"
+    },
+    "title": {
+      "zh": "乐芙兰",
+      "en": "the Deceiver"
+    },
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "imageName": "Leblanc.webp"
+  },
+  {
+    "id": "LeeSin",
+    "key": "64",
+    "name": {
+      "zh": "盲僧",
+      "en": "Lee Sin"
+    },
+    "title": {
+      "zh": "李青",
+      "en": "the Blind Monk"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "LeeSin.webp"
+  },
+  {
+    "id": "Leona",
+    "key": "89",
+    "name": {
+      "zh": "曙光女神",
+      "en": "Leona"
+    },
+    "title": {
+      "zh": "蕾欧娜",
+      "en": "the Radiant Dawn"
+    },
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "imageName": "Leona.webp"
+  },
+  {
+    "id": "Lillia",
+    "key": "876",
+    "name": {
+      "zh": "含羞蓓蕾",
+      "en": "Lillia"
+    },
+    "title": {
+      "zh": "莉莉娅",
+      "en": "the Bashful Bloom"
+    },
+    "roles": [
+      "Fighter",
+      "Mage"
+    ],
+    "imageName": "Lillia.webp"
+  },
+  {
+    "id": "Lissandra",
+    "key": "127",
+    "name": {
+      "zh": "冰霜女巫",
+      "en": "Lissandra"
+    },
+    "title": {
+      "zh": "丽桑卓",
+      "en": "the Ice Witch"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Lissandra.webp"
+  },
+  {
+    "id": "Lucian",
+    "key": "236",
+    "name": {
+      "zh": "圣枪游侠",
+      "en": "Lucian"
+    },
+    "title": {
+      "zh": "卢锡安",
+      "en": "the Purifier"
+    },
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "imageName": "Lucian.webp"
+  },
+  {
+    "id": "Lulu",
+    "key": "117",
+    "name": {
+      "zh": "仙灵女巫",
+      "en": "Lulu"
+    },
+    "title": {
+      "zh": "璐璐",
+      "en": "the Fae Sorceress"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Lulu.webp"
+  },
+  {
+    "id": "Lux",
+    "key": "99",
+    "name": {
+      "zh": "光辉女郎",
+      "en": "Lux"
+    },
+    "title": {
+      "zh": "拉克丝",
+      "en": "the Lady of Luminosity"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Lux.webp"
+  },
+  {
+    "id": "Malphite",
+    "key": "54",
+    "name": {
+      "zh": "熔岩巨兽",
+      "en": "Malphite"
+    },
+    "title": {
+      "zh": "墨菲特",
+      "en": "Shard of the Monolith"
+    },
+    "roles": [
+      "Tank",
+      "Mage"
+    ],
+    "imageName": "Malphite.webp"
+  },
+  {
+    "id": "Malzahar",
+    "key": "90",
+    "name": {
+      "zh": "虚空先知",
+      "en": "Malzahar"
+    },
+    "title": {
+      "zh": "玛尔扎哈",
+      "en": "the Prophet of the Void"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Malzahar.webp"
+  },
+  {
+    "id": "Maokai",
+    "key": "57",
+    "name": {
+      "zh": "扭曲树精",
+      "en": "Maokai"
+    },
+    "title": {
+      "zh": "茂凯",
+      "en": "the Twisted Treant"
+    },
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "imageName": "Maokai.webp"
+  },
+  {
+    "id": "MasterYi",
+    "key": "11",
+    "name": {
+      "zh": "无极剑圣",
+      "en": "Master Yi"
+    },
+    "title": {
+      "zh": "易",
+      "en": "the Wuju Bladesman"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "MasterYi.webp"
+  },
+  {
+    "id": "Mel",
+    "key": "800",
+    "name": {
+      "zh": "流光镜影",
+      "en": "Mel"
+    },
+    "title": {
+      "zh": "梅尔",
+      "en": "the Soul's Reflection"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Mel.webp"
+  },
+  {
+    "id": "Milio",
+    "key": "902",
+    "name": {
+      "zh": "明烛",
+      "en": "Milio"
+    },
+    "title": {
+      "zh": "米利欧",
+      "en": "The Gentle Flame"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Milio.webp"
+  },
+  {
+    "id": "MissFortune",
+    "key": "21",
+    "name": {
+      "zh": "赏金猎人",
+      "en": "Miss Fortune"
+    },
+    "title": {
+      "zh": "厄运小姐",
+      "en": "the Bounty Hunter"
+    },
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "imageName": "MissFortune.webp"
+  },
+  {
+    "id": "MonkeyKing",
+    "key": "62",
+    "name": {
+      "zh": "齐天大圣",
+      "en": "Wukong"
+    },
+    "title": {
+      "zh": "孙悟空",
+      "en": "the Monkey King"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "MonkeyKing.webp"
+  },
+  {
+    "id": "Mordekaiser",
+    "key": "82",
+    "name": {
+      "zh": "铁铠冥魂",
+      "en": "Mordekaiser"
+    },
+    "title": {
+      "zh": "莫德凯撒",
+      "en": "the Iron Revenant"
+    },
+    "roles": [
+      "Fighter",
+      "Mage"
+    ],
+    "imageName": "Mordekaiser.webp"
+  },
+  {
+    "id": "Morgana",
+    "key": "25",
+    "name": {
+      "zh": "堕落天使",
+      "en": "Morgana"
+    },
+    "title": {
+      "zh": "莫甘娜",
+      "en": "the Fallen"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Morgana.webp"
+  },
+  {
+    "id": "Naafiri",
+    "key": "950",
+    "name": {
+      "zh": "百裂冥犬",
+      "en": "Naafiri"
+    },
+    "title": {
+      "zh": "纳亚菲利",
+      "en": "the Hound of a Hundred Bites"
+    },
+    "roles": [
+      "Assassin",
+      "Fighter"
+    ],
+    "imageName": "Naafiri.webp"
+  },
+  {
+    "id": "Nami",
+    "key": "267",
+    "name": {
+      "zh": "唤潮鲛姬",
+      "en": "Nami"
+    },
+    "title": {
+      "zh": "娜美",
+      "en": "the Tidecaller"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Nami.webp"
+  },
+  {
+    "id": "Nasus",
+    "key": "75",
+    "name": {
+      "zh": "沙漠死神",
+      "en": "Nasus"
+    },
+    "title": {
+      "zh": "内瑟斯",
+      "en": "the Curator of the Sands"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Nasus.webp"
+  },
+  {
+    "id": "Nautilus",
+    "key": "111",
+    "name": {
+      "zh": "深海泰坦",
+      "en": "Nautilus"
+    },
+    "title": {
+      "zh": "诺提勒斯",
+      "en": "the Titan of the Depths"
+    },
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "imageName": "Nautilus.webp"
+  },
+  {
+    "id": "Neeko",
+    "key": "518",
+    "name": {
+      "zh": "万花通灵",
+      "en": "Neeko"
+    },
+    "title": {
+      "zh": "妮蔻",
+      "en": "the Curious Chameleon"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Neeko.webp"
+  },
+  {
+    "id": "Nidalee",
+    "key": "76",
+    "name": {
+      "zh": "狂野女猎手",
+      "en": "Nidalee"
+    },
+    "title": {
+      "zh": "奈德丽",
+      "en": "the Bestial Huntress"
+    },
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "imageName": "Nidalee.webp"
+  },
+  {
+    "id": "Nilah",
+    "key": "895",
+    "name": {
+      "zh": "不羁之悦",
+      "en": "Nilah"
+    },
+    "title": {
+      "zh": "尼菈",
+      "en": "the Joy Unbound"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Nilah.webp"
+  },
+  {
+    "id": "Nocturne",
+    "key": "56",
+    "name": {
+      "zh": "永恒梦魇",
+      "en": "Nocturne"
+    },
+    "title": {
+      "zh": "魔腾",
+      "en": "the Eternal Nightmare"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Nocturne.webp"
+  },
+  {
+    "id": "Nunu",
+    "key": "20",
+    "name": {
+      "zh": "雪原双子",
+      "en": "Nunu & Willump"
+    },
+    "title": {
+      "zh": "努努和威朗普",
+      "en": "the Boy and His Yeti"
+    },
+    "roles": [
+      "Tank",
+      "Mage"
+    ],
+    "imageName": "Nunu.webp"
+  },
+  {
+    "id": "Olaf",
+    "key": "2",
+    "name": {
+      "zh": "狂战士",
+      "en": "Olaf"
+    },
+    "title": {
+      "zh": "奥拉夫",
+      "en": "the Berserker"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Olaf.webp"
+  },
+  {
+    "id": "Orianna",
+    "key": "61",
+    "name": {
+      "zh": "发条魔灵",
+      "en": "Orianna"
+    },
+    "title": {
+      "zh": "奥莉安娜",
+      "en": "the Lady of Clockwork"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Orianna.webp"
+  },
+  {
+    "id": "Ornn",
+    "key": "516",
+    "name": {
+      "zh": "山隐之焰",
+      "en": "Ornn"
+    },
+    "title": {
+      "zh": "奥恩",
+      "en": "The Fire below the Mountain"
+    },
+    "roles": [
+      "Tank"
+    ],
+    "imageName": "Ornn.webp"
+  },
+  {
+    "id": "Pantheon",
+    "key": "80",
+    "name": {
+      "zh": "不屈之枪",
+      "en": "Pantheon"
+    },
+    "title": {
+      "zh": "潘森",
+      "en": "the Unbreakable Spear"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Pantheon.webp"
+  },
+  {
+    "id": "Poppy",
+    "key": "78",
+    "name": {
+      "zh": "圣锤之毅",
+      "en": "Poppy"
+    },
+    "title": {
+      "zh": "波比",
+      "en": "Keeper of the Hammer"
+    },
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "imageName": "Poppy.webp"
+  },
+  {
+    "id": "Pyke",
+    "key": "555",
+    "name": {
+      "zh": "血港鬼影",
+      "en": "Pyke"
+    },
+    "title": {
+      "zh": "派克",
+      "en": "the Bloodharbor Ripper"
+    },
+    "roles": [
+      "Support",
+      "Assassin"
+    ],
+    "imageName": "Pyke.webp"
+  },
+  {
+    "id": "Qiyana",
+    "key": "246",
+    "name": {
+      "zh": "元素女皇",
+      "en": "Qiyana"
+    },
+    "title": {
+      "zh": "奇亚娜",
+      "en": "Empress of the Elements"
+    },
+    "roles": [
+      "Assassin"
+    ],
+    "imageName": "Qiyana.webp"
+  },
+  {
+    "id": "Quinn",
+    "key": "133",
+    "name": {
+      "zh": "德玛西亚之翼",
+      "en": "Quinn"
+    },
+    "title": {
+      "zh": "奎因",
+      "en": "Demacia's Wings"
+    },
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "imageName": "Quinn.webp"
+  },
+  {
+    "id": "Rakan",
+    "key": "497",
+    "name": {
+      "zh": "幻翎",
+      "en": "Rakan"
+    },
+    "title": {
+      "zh": "洛",
+      "en": "The Charmer"
+    },
+    "roles": [
+      "Support"
+    ],
+    "imageName": "Rakan.webp"
+  },
+  {
+    "id": "Rammus",
+    "key": "33",
+    "name": {
+      "zh": "披甲龙龟",
+      "en": "Rammus"
+    },
+    "title": {
+      "zh": "拉莫斯",
+      "en": "the Armordillo"
+    },
+    "roles": [
+      "Tank"
+    ],
+    "imageName": "Rammus.webp"
+  },
+  {
+    "id": "RekSai",
+    "key": "421",
+    "name": {
+      "zh": "虚空遁地兽",
+      "en": "Rek'Sai"
+    },
+    "title": {
+      "zh": "雷克塞",
+      "en": "the Void Burrower"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "RekSai.webp"
+  },
+  {
+    "id": "Rell",
+    "key": "526",
+    "name": {
+      "zh": "镕铁少女",
+      "en": "Rell"
+    },
+    "title": {
+      "zh": "芮尔",
+      "en": "the Iron Maiden"
+    },
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "imageName": "Rell.webp"
+  },
+  {
+    "id": "Renata",
+    "key": "888",
+    "name": {
+      "zh": "炼金男爵",
+      "en": "Renata Glasc"
+    },
+    "title": {
+      "zh": "烈娜塔 · 戈拉斯克",
+      "en": "the Chem-Baroness"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Renata.webp"
+  },
+  {
+    "id": "Renekton",
+    "key": "58",
+    "name": {
+      "zh": "荒漠屠夫",
+      "en": "Renekton"
+    },
+    "title": {
+      "zh": "雷克顿",
+      "en": "the Butcher of the Sands"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Renekton.webp"
+  },
+  {
+    "id": "Rengar",
+    "key": "107",
+    "name": {
+      "zh": "傲之追猎者",
+      "en": "Rengar"
+    },
+    "title": {
+      "zh": "雷恩加尔",
+      "en": "the Pridestalker"
+    },
+    "roles": [
+      "Assassin",
+      "Fighter"
+    ],
+    "imageName": "Rengar.webp"
+  },
+  {
+    "id": "Riven",
+    "key": "92",
+    "name": {
+      "zh": "放逐之刃",
+      "en": "Riven"
+    },
+    "title": {
+      "zh": "锐雯",
+      "en": "the Exile"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Riven.webp"
+  },
+  {
+    "id": "Rumble",
+    "key": "68",
+    "name": {
+      "zh": "机械公敌",
+      "en": "Rumble"
+    },
+    "title": {
+      "zh": "兰博",
+      "en": "the Mechanized Menace"
+    },
+    "roles": [
+      "Fighter",
+      "Mage"
+    ],
+    "imageName": "Rumble.webp"
+  },
+  {
+    "id": "Ryze",
+    "key": "13",
+    "name": {
+      "zh": "符文法师",
+      "en": "Ryze"
+    },
+    "title": {
+      "zh": "瑞兹",
+      "en": "the Rune Mage"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Ryze.webp"
+  },
+  {
+    "id": "Samira",
+    "key": "360",
+    "name": {
+      "zh": "沙漠玫瑰",
+      "en": "Samira"
+    },
+    "title": {
+      "zh": "莎弥拉",
+      "en": "the Desert Rose"
+    },
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "imageName": "Samira.webp"
+  },
+  {
+    "id": "Sejuani",
+    "key": "113",
+    "name": {
+      "zh": "北地之怒",
+      "en": "Sejuani"
+    },
+    "title": {
+      "zh": "瑟庄妮",
+      "en": "Fury of the North"
+    },
+    "roles": [
+      "Tank"
+    ],
+    "imageName": "Sejuani.webp"
+  },
+  {
+    "id": "Senna",
+    "key": "235",
+    "name": {
+      "zh": "涤魂圣枪",
+      "en": "Senna"
+    },
+    "title": {
+      "zh": "赛娜",
+      "en": "the Redeemer"
+    },
+    "roles": [
+      "Support",
+      "Marksman"
+    ],
+    "imageName": "Senna.webp"
+  },
+  {
+    "id": "Seraphine",
+    "key": "147",
+    "name": {
+      "zh": "星籁歌姬",
+      "en": "Seraphine"
+    },
+    "title": {
+      "zh": "萨勒芬妮",
+      "en": "the Starry-Eyed Songstress"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Seraphine.webp"
+  },
+  {
+    "id": "Sett",
+    "key": "875",
+    "name": {
+      "zh": "腕豪",
+      "en": "Sett"
+    },
+    "title": {
+      "zh": "瑟提",
+      "en": "the Boss"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Sett.webp"
+  },
+  {
+    "id": "Shaco",
+    "key": "35",
+    "name": {
+      "zh": "恶魔小丑",
+      "en": "Shaco"
+    },
+    "title": {
+      "zh": "萨科",
+      "en": "the Demon Jester"
+    },
+    "roles": [
+      "Assassin"
+    ],
+    "imageName": "Shaco.webp"
+  },
+  {
+    "id": "Shen",
+    "key": "98",
+    "name": {
+      "zh": "暮光之眼",
+      "en": "Shen"
+    },
+    "title": {
+      "zh": "慎",
+      "en": "the Eye of Twilight"
+    },
+    "roles": [
+      "Tank"
+    ],
+    "imageName": "Shen.webp"
+  },
+  {
+    "id": "Shyvana",
+    "key": "102",
+    "name": {
+      "zh": "龙血武姬",
+      "en": "Shyvana"
+    },
+    "title": {
+      "zh": "希瓦娜",
+      "en": "the Half-Dragon"
+    },
+    "roles": [
+      "Fighter",
+      "Mage"
+    ],
+    "imageName": "Shyvana.webp"
+  },
+  {
+    "id": "Singed",
+    "key": "27",
+    "name": {
+      "zh": "炼金术士",
+      "en": "Singed"
+    },
+    "title": {
+      "zh": "辛吉德",
+      "en": "the Mad Chemist"
+    },
+    "roles": [
+      "Tank",
+      "Mage"
+    ],
+    "imageName": "Singed.webp"
+  },
+  {
+    "id": "Sion",
+    "key": "14",
+    "name": {
+      "zh": "亡灵战神",
+      "en": "Sion"
+    },
+    "title": {
+      "zh": "赛恩",
+      "en": "The Undead Juggernaut"
+    },
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "imageName": "Sion.webp"
+  },
+  {
+    "id": "Sivir",
+    "key": "15",
+    "name": {
+      "zh": "战争女神",
+      "en": "Sivir"
+    },
+    "title": {
+      "zh": "希维尔",
+      "en": "the Battle Mistress"
+    },
+    "roles": [
+      "Marksman"
+    ],
+    "imageName": "Sivir.webp"
+  },
+  {
+    "id": "Skarner",
+    "key": "72",
+    "name": {
+      "zh": "上古领主",
+      "en": "Skarner"
+    },
+    "title": {
+      "zh": "斯卡纳",
+      "en": "the Primordial Sovereign"
+    },
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "imageName": "Skarner.webp"
+  },
+  {
+    "id": "Smolder",
+    "key": "901",
+    "name": {
+      "zh": "炽炎雏龙",
+      "en": "Smolder"
+    },
+    "title": {
+      "zh": "斯莫德",
+      "en": "the Fiery Fledgling"
+    },
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "imageName": "Smolder.webp"
+  },
+  {
+    "id": "Sona",
+    "key": "37",
+    "name": {
+      "zh": "琴瑟仙女",
+      "en": "Sona"
+    },
+    "title": {
+      "zh": "娑娜",
+      "en": "Maven of the Strings"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Sona.webp"
+  },
+  {
+    "id": "Soraka",
+    "key": "16",
+    "name": {
+      "zh": "众星之子",
+      "en": "Soraka"
+    },
+    "title": {
+      "zh": "索拉卡",
+      "en": "the Starchild"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Soraka.webp"
+  },
+  {
+    "id": "Swain",
+    "key": "50",
+    "name": {
+      "zh": "诺克萨斯统领",
+      "en": "Swain"
+    },
+    "title": {
+      "zh": "斯维因",
+      "en": "the Noxian Grand General"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Swain.webp"
+  },
+  {
+    "id": "Sylas",
+    "key": "517",
+    "name": {
+      "zh": "解脱者",
+      "en": "Sylas"
+    },
+    "title": {
+      "zh": "塞拉斯",
+      "en": "the Unshackled"
+    },
+    "roles": [
+      "Mage",
+      "Assassin"
+    ],
+    "imageName": "Sylas.webp"
+  },
+  {
+    "id": "Syndra",
+    "key": "134",
+    "name": {
+      "zh": "暗黑元首",
+      "en": "Syndra"
+    },
+    "title": {
+      "zh": "辛德拉",
+      "en": "the Dark Sovereign"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Syndra.webp"
+  },
+  {
+    "id": "TahmKench",
+    "key": "223",
+    "name": {
+      "zh": "河流之王",
+      "en": "Tahm Kench"
+    },
+    "title": {
+      "zh": "塔姆",
+      "en": "The River King"
+    },
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "imageName": "TahmKench.webp"
+  },
+  {
+    "id": "Taliyah",
+    "key": "163",
+    "name": {
+      "zh": "岩雀",
+      "en": "Taliyah"
+    },
+    "title": {
+      "zh": "塔莉垭",
+      "en": "the Stoneweaver"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Taliyah.webp"
+  },
+  {
+    "id": "Talon",
+    "key": "91",
+    "name": {
+      "zh": "刀锋之影",
+      "en": "Talon"
+    },
+    "title": {
+      "zh": "泰隆",
+      "en": "the Blade's Shadow"
+    },
+    "roles": [
+      "Assassin"
+    ],
+    "imageName": "Talon.webp"
+  },
+  {
+    "id": "Taric",
+    "key": "44",
+    "name": {
+      "zh": "瓦洛兰之盾",
+      "en": "Taric"
+    },
+    "title": {
+      "zh": "塔里克",
+      "en": "the Shield of Valoran"
+    },
+    "roles": [
+      "Support",
+      "Tank"
+    ],
+    "imageName": "Taric.webp"
+  },
+  {
+    "id": "Teemo",
+    "key": "17",
+    "name": {
+      "zh": "迅捷斥候",
+      "en": "Teemo"
+    },
+    "title": {
+      "zh": "提莫",
+      "en": "the Swift Scout"
+    },
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "imageName": "Teemo.webp"
+  },
+  {
+    "id": "Thresh",
+    "key": "412",
+    "name": {
+      "zh": "魂锁典狱长",
+      "en": "Thresh"
+    },
+    "title": {
+      "zh": "锤石",
+      "en": "the Chain Warden"
+    },
+    "roles": [
+      "Support",
+      "Tank"
+    ],
+    "imageName": "Thresh.webp"
+  },
+  {
+    "id": "Tristana",
+    "key": "18",
+    "name": {
+      "zh": "麦林炮手",
+      "en": "Tristana"
+    },
+    "title": {
+      "zh": "崔丝塔娜",
+      "en": "the Yordle Gunner"
+    },
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "imageName": "Tristana.webp"
+  },
+  {
+    "id": "Trundle",
+    "key": "48",
+    "name": {
+      "zh": "巨魔之王",
+      "en": "Trundle"
+    },
+    "title": {
+      "zh": "特朗德尔",
+      "en": "the Troll King"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Trundle.webp"
+  },
+  {
+    "id": "Tryndamere",
+    "key": "23",
+    "name": {
+      "zh": "蛮族之王",
+      "en": "Tryndamere"
+    },
+    "title": {
+      "zh": "泰达米尔",
+      "en": "the Barbarian King"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Tryndamere.webp"
+  },
+  {
+    "id": "TwistedFate",
+    "key": "4",
+    "name": {
+      "zh": "卡牌大师",
+      "en": "Twisted Fate"
+    },
+    "title": {
+      "zh": "崔斯特",
+      "en": "the Card Master"
+    },
+    "roles": [
+      "Mage",
+      "Marksman"
+    ],
+    "imageName": "TwistedFate.webp"
+  },
+  {
+    "id": "Twitch",
+    "key": "29",
+    "name": {
+      "zh": "瘟疫之源",
+      "en": "Twitch"
+    },
+    "title": {
+      "zh": "图奇",
+      "en": "the Plague Rat"
+    },
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "imageName": "Twitch.webp"
+  },
+  {
+    "id": "Udyr",
+    "key": "77",
+    "name": {
+      "zh": "兽灵行者",
+      "en": "Udyr"
+    },
+    "title": {
+      "zh": "乌迪尔",
+      "en": "the Spirit Walker"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Udyr.webp"
+  },
+  {
+    "id": "Urgot",
+    "key": "6",
+    "name": {
+      "zh": "无畏战车",
+      "en": "Urgot"
+    },
+    "title": {
+      "zh": "厄加特",
+      "en": "the Dreadnought"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Urgot.webp"
+  },
+  {
+    "id": "Varus",
+    "key": "110",
+    "name": {
+      "zh": "惩戒之箭",
+      "en": "Varus"
+    },
+    "title": {
+      "zh": "韦鲁斯",
+      "en": "the Arrow of Retribution"
+    },
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "imageName": "Varus.webp"
+  },
+  {
+    "id": "Vayne",
+    "key": "67",
+    "name": {
+      "zh": "暗夜猎手",
+      "en": "Vayne"
+    },
+    "title": {
+      "zh": "薇恩",
+      "en": "the Night Hunter"
+    },
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "imageName": "Vayne.webp"
+  },
+  {
+    "id": "Veigar",
+    "key": "45",
+    "name": {
+      "zh": "邪恶小法师",
+      "en": "Veigar"
+    },
+    "title": {
+      "zh": "维迦",
+      "en": "the Tiny Master of Evil"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Veigar.webp"
+  },
+  {
+    "id": "Velkoz",
+    "key": "161",
+    "name": {
+      "zh": "虚空之眼",
+      "en": "Vel'Koz"
+    },
+    "title": {
+      "zh": "维克兹",
+      "en": "the Eye of the Void"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Velkoz.webp"
+  },
+  {
+    "id": "Vex",
+    "key": "711",
+    "name": {
+      "zh": "愁云使者",
+      "en": "Vex"
+    },
+    "title": {
+      "zh": "薇古丝",
+      "en": "the Gloomist"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Vex.webp"
+  },
+  {
+    "id": "Vi",
+    "key": "254",
+    "name": {
+      "zh": "皮城执法官",
+      "en": "Vi"
+    },
+    "title": {
+      "zh": "蔚",
+      "en": "the Piltover Enforcer"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Vi.webp"
+  },
+  {
+    "id": "Viego",
+    "key": "234",
+    "name": {
+      "zh": "破败之王",
+      "en": "Viego"
+    },
+    "title": {
+      "zh": "佛耶戈",
+      "en": "The Ruined King"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Viego.webp"
+  },
+  {
+    "id": "Viktor",
+    "key": "112",
+    "name": {
+      "zh": "奥术先驱",
+      "en": "Viktor"
+    },
+    "title": {
+      "zh": "维克托",
+      "en": "the Herald of the Arcane"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Viktor.webp"
+  },
+  {
+    "id": "Vladimir",
+    "key": "8",
+    "name": {
+      "zh": "猩红收割者",
+      "en": "Vladimir"
+    },
+    "title": {
+      "zh": "弗拉基米尔",
+      "en": "the Crimson Reaper"
+    },
+    "roles": [
+      "Mage",
+      "Fighter"
+    ],
+    "imageName": "Vladimir.webp"
+  },
+  {
+    "id": "Volibear",
+    "key": "106",
+    "name": {
+      "zh": "不灭狂雷",
+      "en": "Volibear"
+    },
+    "title": {
+      "zh": "沃利贝尔",
+      "en": "the Relentless Storm"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Volibear.webp"
+  },
+  {
+    "id": "Warwick",
+    "key": "19",
+    "name": {
+      "zh": "祖安怒兽",
+      "en": "Warwick"
+    },
+    "title": {
+      "zh": "沃里克",
+      "en": "the Uncaged Wrath of Zaun"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Warwick.webp"
+  },
+  {
+    "id": "Xayah",
+    "key": "498",
+    "name": {
+      "zh": "逆羽",
+      "en": "Xayah"
+    },
+    "title": {
+      "zh": "霞",
+      "en": "the Rebel"
+    },
+    "roles": [
+      "Marksman"
+    ],
+    "imageName": "Xayah.webp"
+  },
+  {
+    "id": "Xerath",
+    "key": "101",
+    "name": {
+      "zh": "远古巫灵",
+      "en": "Xerath"
+    },
+    "title": {
+      "zh": "泽拉斯",
+      "en": "the Magus Ascendant"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Xerath.webp"
+  },
+  {
+    "id": "XinZhao",
+    "key": "5",
+    "name": {
+      "zh": "德邦总管",
+      "en": "Xin Zhao"
+    },
+    "title": {
+      "zh": "赵信",
+      "en": "the Seneschal of Demacia"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "XinZhao.webp"
+  },
+  {
+    "id": "Yasuo",
+    "key": "157",
+    "name": {
+      "zh": "疾风剑豪",
+      "en": "Yasuo"
+    },
+    "title": {
+      "zh": "亚索",
+      "en": "the Unforgiven"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Yasuo.webp"
+  },
+  {
+    "id": "Yone",
+    "key": "777",
+    "name": {
+      "zh": "封魔剑魂",
+      "en": "Yone"
+    },
+    "title": {
+      "zh": "永恩",
+      "en": "the Unforgotten"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Yone.webp"
+  },
+  {
+    "id": "Yorick",
+    "key": "83",
+    "name": {
+      "zh": "牧魂人",
+      "en": "Yorick"
+    },
+    "title": {
+      "zh": "约里克",
+      "en": "Shepherd of Souls"
+    },
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "imageName": "Yorick.webp"
+  },
+  {
+    "id": "Yunara",
+    "key": "804",
+    "name": {
+      "zh": "不破之誓",
+      "en": "Yunara"
+    },
+    "title": {
+      "zh": "芸阿娜",
+      "en": "the Unbroken Faith"
+    },
+    "roles": [
+      "Marksman"
+    ],
+    "imageName": "Yunara.webp"
+  },
+  {
+    "id": "Yuumi",
+    "key": "350",
+    "name": {
+      "zh": "魔法猫咪",
+      "en": "Yuumi"
+    },
+    "title": {
+      "zh": "悠米",
+      "en": "the Magical Cat"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Yuumi.webp"
+  },
+  {
+    "id": "Zaahen",
+    "key": "904",
+    "name": {
+      "zh": "不落魔锋",
+      "en": "Zaahen"
+    },
+    "title": {
+      "zh": "亚恒",
+      "en": "The Unsundered"
+    },
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "imageName": "Zaahen.webp"
+  },
+  {
+    "id": "Zac",
+    "key": "154",
+    "name": {
+      "zh": "生化魔人",
+      "en": "Zac"
+    },
+    "title": {
+      "zh": "扎克",
+      "en": "the Secret Weapon"
+    },
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "imageName": "Zac.webp"
+  },
+  {
+    "id": "Zed",
+    "key": "238",
+    "name": {
+      "zh": "影流之主",
+      "en": "Zed"
+    },
+    "title": {
+      "zh": "劫",
+      "en": "the Master of Shadows"
+    },
+    "roles": [
+      "Assassin"
+    ],
+    "imageName": "Zed.webp"
+  },
+  {
+    "id": "Zeri",
+    "key": "221",
+    "name": {
+      "zh": "祖安花火",
+      "en": "Zeri"
+    },
+    "title": {
+      "zh": "泽丽",
+      "en": "The Spark of Zaun"
+    },
+    "roles": [
+      "Marksman"
+    ],
+    "imageName": "Zeri.webp"
+  },
+  {
+    "id": "Ziggs",
+    "key": "115",
+    "name": {
+      "zh": "爆破鬼才",
+      "en": "Ziggs"
+    },
+    "title": {
+      "zh": "吉格斯",
+      "en": "the Hexplosives Expert"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Ziggs.webp"
+  },
+  {
+    "id": "Zilean",
+    "key": "26",
+    "name": {
+      "zh": "时光守护者",
+      "en": "Zilean"
+    },
+    "title": {
+      "zh": "基兰",
+      "en": "the Chronokeeper"
+    },
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "imageName": "Zilean.webp"
+  },
+  {
+    "id": "Zoe",
+    "key": "142",
+    "name": {
+      "zh": "暮光星灵",
+      "en": "Zoe"
+    },
+    "title": {
+      "zh": "佐伊",
+      "en": "the Aspect of Twilight"
+    },
+    "roles": [
+      "Mage"
+    ],
+    "imageName": "Zoe.webp"
+  },
+  {
+    "id": "Zyra",
+    "key": "143",
+    "name": {
+      "zh": "荆棘之兴",
+      "en": "Zyra"
+    },
+    "title": {
+      "zh": "婕拉",
+      "en": "Rise of the Thorns"
+    },
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "imageName": "Zyra.webp"
+  }
+]

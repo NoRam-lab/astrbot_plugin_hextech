@@ -1,0 +1,15 @@
+{
+    "enable_llm_search": {
+        "description": "启用LLM模糊查找",
+        "type": "bool",
+        "hint": "开启后，当本地精确匹配失败时，将调用LLM识别用户输入的英雄别名或外号。关闭则仅支持本地精确匹配。",
+        "default": true
+    },
+    "llm_provider_id": {
+        "description": "LLM提供商ID",
+        "type": "string",
+        "hint": "用于识别英雄别名的LLM模型。若留空则自动选择首个可用模型。",
+        "default": "",
+        "_special": "select_provider"
+    }
+}

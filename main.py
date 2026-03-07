@@ -2,16 +2,59 @@ from astrbot.api.event import filter, AstrMessageEvent, MessageEventResult
 from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
 import json
+import os
 
 @register("hextech", "Payne", "海克斯乱斗信息差", "0.0.1")
 class MyPlugin(Star):
     def __init__(self, context: Context, config: dict = None):
         super().__init__(context)
         self.config = config or {}
+        self.hero_data = []
+        self._load_hero_data()
+
+    def _load_hero_data(self):
+        """加载英雄数据"""
+        try:
+            curr_dir = os.path.dirname(os.path.abspath(__file__))
+            json_path = os.path.join(curr_dir, "herolist.json")
+            if os.path.exists(json_path):
+                with open(json_path, "r", encoding="utf-8") as f:
+                    self.hero_data = json.load(f)
+                logger.info(f"成功加载 {len(self.hero_data)} 个英雄数据")
+            else:
+                logger.warning(f"未找到英雄数据文件: {json_path}")
+        except Exception as e:
+            logger.error(f"加载英雄数据失败: {e}")
 
     async def initialize(self):
         """可选择实现异步的插件初始化方法，当实例化该插件类之后会自动调用该方法。"""
         pass
+
+    def _find_hero_local(self, query: str) -> dict:
+        """本地查找英雄（支持中文名、英文名、称号、ID模糊匹配）"""
+        if not self.hero_data:
+            return None
+            
+        query = query.lower().strip()
+        
+        # 1. 精确匹配
+        for hero in self.hero_data:
+            if (hero.get("name", {}).get("zh", "") == query or 
+                hero.get("name", {}).get("en", "").lower() == query or 
+                hero.get("title", {}).get("zh", "") == query or 
+                hero.get("title", {}).get("en", "").lower() == query or
+                hero.get("id", "").lower() == query):
+                return hero
+                
+        # 2. 模糊匹配
+        for hero in self.hero_data:
+            if (query in hero.get("name", {}).get("zh", "") or 
+                query in hero.get("name", {}).get("en", "").lower() or 
+                query in hero.get("title", {}).get("zh", "") or 
+                query in hero.get("title", {}).get("en", "").lower()):
+                return hero
+                
+        return None
 
     @filter.command("海斗")
     async def haidou(self, event: AstrMessageEvent, hero_name: str = ""):
@@ -20,31 +63,43 @@ class MyPlugin(Star):
             yield event.plain_result("请输入英雄名，例如：/海斗 提莫")
             return
 
-        # 尝试标准化英雄名
-        normalized = await self._normalize_hero_name(hero_name)
+        # 1. 优先本地查找
+        hero = self._find_hero_local(hero_name)
         
-        name = hero_name
-        en_name = ""
-        
-        if normalized and normalized.get("name"):
-            name = normalized["name"]
-            en_name = normalized.get("en_name", "")
-            logger.info(f"英雄名标准化: {hero_name} -> {name} ({en_name})")
+        # 2. 如果本地没找到，且开启了LLM搜索，则尝试LLM标准化
+        if not hero and self.config.get("enable_llm_search", True):
+            logger.info(f"本地未找到英雄 {hero_name}，尝试调用LLM...")
+            normalized = await self._normalize_hero_name(hero_name)
+            if normalized and normalized.get("name"):
+                # LLM返回标准名后，再次在本地查找以获取完整数据
+                hero = self._find_hero_local(normalized["name"])
+                if not hero:
+                     # 如果LLM返回了名字但本地还是没找到（可能是LLM幻觉或数据不一致），兜底使用LLM返回的简单信息
+                     logger.warning(f"LLM返回了 {normalized['name']} 但本地数据未匹配")
+                     hero = {
+                         "name": {"zh": normalized["name"], "en": normalized.get("en_name", "")},
+                         "title": {"zh": "未知", "en": "Unknown"},
+                         "id": "Unknown"
+                     }
+
+        if hero:
+            zh_name = hero.get("name", {}).get("zh", "未知")
+            en_name = hero.get("name", {}).get("en", "")
+            title = hero.get("title", {}).get("zh", "")
+            
+            result_msg = f"英雄: {zh_name} {title}"
+            if en_name:
+                result_msg += f" ({en_name})"
+            yield event.plain_result(result_msg)
         else:
-            logger.warning(f"无法标准化英雄名: {hero_name}")
-            
-        result_msg = f"英雄: {name}"
-        if en_name:
-            result_msg += f" ({en_name})"
-            
-        yield event.plain_result(result_msg)
+            yield event.plain_result(f"未找到英雄: {hero_name}")
 
     async def _normalize_hero_name(self, query: str) -> dict:
         """调用LLM标准化英雄名"""
         provider = None
         
         # 1. 尝试从配置获取 provider_id
-        provider_id = self.config.get("provider_id")
+        provider_id = self.config.get("llm_provider_id") # 注意这里用了 llm_provider_id
         if provider_id:
             provider = self.context.get_provider_by_id(provider_id)
             
