@@ -14,8 +14,12 @@ class MyPlugin(Star):
         pass
 
     @filter.command("海斗")
-    async def haidou(self, event: AstrMessageEvent, hero_name: str):
+    async def haidou(self, event: AstrMessageEvent, hero_name: str = ""):
         """查询英雄"""
+        if not hero_name:
+            yield event.plain_result("请输入英雄名，例如：/海斗 提莫")
+            return
+
         # 尝试标准化英雄名
         normalized = await self._normalize_hero_name(hero_name)
         
