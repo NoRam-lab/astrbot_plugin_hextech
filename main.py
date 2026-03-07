@@ -72,7 +72,20 @@ class MyPlugin(Star):
             normalized = await self._normalize_hero_name(hero_name)
             if normalized and normalized.get("name"):
                 # LLM返回标准名后，再次在本地查找以获取完整数据
+                # 尝试用 name 找
                 hero = self._find_hero_local(normalized["name"])
+                
+                # 如果没找到，尝试用 en_name 找
+                if not hero and normalized.get("en_name"):
+                    hero = self._find_hero_local(normalized["en_name"])
+
+                # 如果还没找到，尝试用 alias 列表找
+                if not hero and normalized.get("alias"):
+                    for alias in normalized["alias"]:
+                        hero = self._find_hero_local(alias)
+                        if hero:
+                            break
+
                 if not hero:
                      # 如果LLM返回了名字但本地还是没找到（可能是LLM幻觉或数据不一致），兜底使用LLM返回的简单信息
                      logger.warning(f"LLM返回了 {normalized['name']} 但本地数据未匹配")
@@ -86,10 +99,13 @@ class MyPlugin(Star):
             zh_name = hero.get("name", {}).get("zh", "未知")
             en_name = hero.get("name", {}).get("en", "")
             title = hero.get("title", {}).get("zh", "")
+            hero_id = hero.get("id", "Unknown")
             
             result_msg = f"英雄: {zh_name} {title}"
             if en_name:
                 result_msg += f" ({en_name})"
+            result_msg += f"\nID: {hero_id}"
+            
             yield event.plain_result(result_msg)
         else:
             yield event.plain_result(f"未找到英雄: {hero_name}")
@@ -131,7 +147,8 @@ class MyPlugin(Star):
  # Output Format (JSON Only) 
  {{ 
    "name": "英雄的标准中文全称", 
-   "en_name": "Hero's official English name" 
+   "en_name": "Hero's official English name",
+   "alias": ["可能的其他中文称呼1", "称呼2"]
  }} 
  
  # Constraint 
