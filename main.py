@@ -3,6 +3,7 @@ from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
 import json
 import os
+import time
 import aiohttp
 from bs4 import BeautifulSoup
 from .utils import fetch_hextech_data_from_url
@@ -16,8 +17,6 @@ class MyPlugin(Star):
         self._load_hero_data()
         self.hextech_data = None
         self.last_fetch_time = 0
-        import time
-        self.time = time
 
     def _load_hero_data(self):
         """加载英雄数据"""
@@ -44,38 +43,38 @@ class MyPlugin(Star):
             
         query = query.lower().strip()
         
-        # 1. 精确匹配
+        fuzzy_match = None
+        
         for hero in self.hero_data:
-            if (hero.get("name", {}).get("zh", "") == query or 
-                hero.get("name", {}).get("en", "").lower() == query or 
-                hero.get("title", {}).get("zh", "") == query or 
-                hero.get("title", {}).get("en", "").lower() == query or
-                hero.get("id", "").lower() == query):
+            zh_name = hero.get("name", {}).get("zh", "").lower()
+            en_name = hero.get("name", {}).get("en", "").lower()
+            title_zh = hero.get("title", {}).get("zh", "").lower()
+            title_en = hero.get("title", {}).get("en", "").lower()
+            hero_id = hero.get("id", "").lower()
+            
+            # 1. 精确匹配 (优先级最高)
+            if (zh_name == query or en_name == query or 
+                title_zh == query or title_en == query or
+                hero_id == query):
                 return hero
+            
+            # 2. 模糊匹配 (记录第一个匹配项，如果后面没有精确匹配则返回此项)
+            if not fuzzy_match and (query in zh_name or query in en_name or 
+                                    query in title_zh or query in title_en):
+                fuzzy_match = hero
                 
-        # 2. 模糊匹配
-        for hero in self.hero_data:
-            if (query in hero.get("name", {}).get("zh", "") or 
-                query in hero.get("name", {}).get("en", "").lower() or 
-                query in hero.get("title", {}).get("zh", "") or 
-                query in hero.get("title", {}).get("en", "").lower()):
-                return hero
-                
-        return None
+        return fuzzy_match
 
     async def _get_hextech_data(self):
         """获取海克斯数据，支持缓存"""
-        current_time = self.time.time()
+        current_time = time.time()
         # 缓存1小时
         if self.hextech_data and (current_time - self.last_fetch_time < 3600):
             return self.hextech_data
         
         try:
-            # 尝试获取数据
-            import asyncio
-            loop = asyncio.get_event_loop()
-            # 在执行器中运行同步函数以避免阻塞
-            data = await loop.run_in_executor(None, fetch_hextech_data_from_url)
+            # fetch_hextech_data_from_url 现在是异步的，直接 await
+            data = await fetch_hextech_data_from_url()
             
             if data:
                 self.hextech_data = data
@@ -359,13 +358,28 @@ class MyPlugin(Star):
             response = await provider.text_chat(prompt=prompt, contexts=[])
             if response and response.completion_text:
                 text = response.completion_text
-                # 清理可能的 Markdown 代码块
-                if "```json" in text:
-                    text = text.split("```json")[1].split("```")[0]
-                elif "```" in text:
-                    text = text.split("```")[1].split("```")[0]
-                
-                return json.loads(text.strip())
+                # 清理 Markdown 代码块
+                try:
+                    if "```json" in text:
+                        text = text.split("```json")[1].split("```")[0]
+                    elif "```" in text:
+                        # 找到第一个 ``` 和下一个 ``` 之间的内容
+                        parts = text.split("```")
+                        if len(parts) >= 3:
+                            text = parts[1]
+                        else:
+                            # 只有一段代码块或格式不对，尝试直接解析
+                            text = text.replace("```", "")
+                    
+                    return json.loads(text.strip())
+                except (IndexError, json.JSONDecodeError):
+                    logger.warning(f"LLM返回格式解析失败，尝试直接解析: {text}")
+                    # 尝试直接解析整个文本（如果只是单纯的JSON字符串）
+                    try:
+                        return json.loads(text.strip())
+                    except:
+                        pass
+                        
         except Exception as e:
             logger.error(f"LLM标准化英雄名失败: {e}")
             
